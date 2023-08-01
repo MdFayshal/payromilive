@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+
+}
+
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #ffffff !important;
+    padding-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 48px;
+    line-height: 57px;
+    font-weight: 800;
+    margin-right: 50px;
+}
+
+.navbar-nav {
+    padding-top: 20px;
+    text-align: center;
+}
+
+a.nav-link {
+    color: #000 !important;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 800;
+    margin: 10px;
+}
+
+
+.contact{
+    background-image: url('../Images/Contactus.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+
+.c-head{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37.02px;
+    line-height: 49px;
+    color: #282938;
+}
+.c-title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.34px;
+    line-height: 22px;
+    color: #282938;
+    opacity: 0.7;
+}
+
+.card{
+    
+    background: #F4F6FC !important;
+    border-radius: 9.255px;
+     height: 493px;
+     width: 818px;
+}
+.form-body{
+    background: #F4F6FC;
+    border-radius: 9.255px;
+}
+
+.btn-send{
+    padding: 11.5688px 39.3338px;
+    width: 175.85px;
+    height: 49.36px;
+    right: 1015.1px;
+    top: 614px;
+    background: #1352F4;
+    border-radius: 31.6213px;
+
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.8825px;
+    line-height: 25px;
+    color: #F4F6FC;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 7.7125px;
+}
+.btn-send:hover{
+
+    color: #F4F6FC;
+
+}
+label {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.8825px;
+    line-height: 25px;
+    color: #000000;
+}

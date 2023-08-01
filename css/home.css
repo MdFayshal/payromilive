@@ -1,0 +1,915 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;800&family=Roboto+Slab:wght@400;600;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Almarai', sans-serif;
+}
+
+header {
+  background-color: #f5e6e8 !important;
+  padding-bottom: 20px;
+}
+
+.navbar-brand {
+  font-size: 48px;
+  line-height: 57px;
+  font-weight: 800;
+  margin-right: 50px;
+}
+
+.navbar-nav {
+  padding-top: 20px;
+  text-align: center;
+}
+
+a.nav-link {
+  color: #000 !important;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  margin: 10px;
+}
+
+/*========= Model ==========*/
+
+.modal-bg {
+  background-image: url('../Images/design1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 602px;
+  padding: 0px;
+  box-shadow: 0px 2.63846px 2.63846px rgba(0, 0, 0, 0.25);
+  border-radius: 15.1711px !important;
+
+
+}
+
+.mhead {
+  background: #EDD2F3;
+  border-radius: 15px 15px 25px 25px;
+
+}
+
+.modal-header {
+  border-bottom: 0px solid #dee2e6 !important;
+}
+
+.i1mg {
+  background-image: url('../Images/YellowSimpleComingSoonInstagramPost2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 280.97px;
+  margin-top: -14px;
+  filter: drop-shadow(0px 2.63846px 2.63846px rgba(0, 0, 0, 0.25));
+  border-radius: 21.32px;
+
+}
+
+.loglabel {
+  font-family: 'Almarai', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 12px;
+
+  color: #000000;
+}
+
+.login-model-name {
+  font-family: 'Almarai', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.modal input {
+  color: #EDD2F3;
+  border-radius: 20px;
+  height: 30px;
+
+}
+
+.modal ::placeholder {
+  color: #EDD2F3;
+}
+
+.modal .btn {
+  height: 38px;
+  background-color: #516BEB;
+  border-radius: 20px;
+  font-family: 'Almarai', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.lowlabel {
+  font-family: 'Almarai', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9.2346px;
+  line-height: 10px;
+  letter-spacing: 0.05em;
+  color: #6C28FE;
+  text-decoration: none;
+  /* for Disable hover effect */
+  /* pointer-events: none;  */
+}
+
+.lowlabel:hover {
+  color: #516BEB;
+}
+
+.model-pass-terms {
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 10px;
+  letter-spacing: 0.05em;
+  margin: 0;
+  color: #000000;
+}
+
+.modal .form-check {
+  font-family: 'Almarai', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  color: #000000;
+
+}
+
+.modal .form-check .form-check-input {
+  width: 11px;
+  height: 11px;
+}
+
+/* -------Banner Section------ */
+.banner {
+  background-color: #f5e6e8;
+  height: 440px;
+  font-family: 'Almarai', sans-serif;
+  font-style: normal;
+}
+
+/* .banner .row {
+  padding-top: 30px;
+} */
+
+.welcomep {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.buynow {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 70px;
+  color: #f44848;
+}
+
+.firstparagraph {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: justify;
+  letter-spacing: 0.15em;
+}
+
+.homesercard {
+  margin-top: 40px;
+}
+
+.homemedia {
+  background-color: #192a51;
+  border-radius: 15px 35px 0px 0px;
+  height: 120px;
+}
+
+.homemedia img {
+  width: 59px;
+  height: 56px;
+}
+
+.home-ds-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37.4589px;
+  line-height: 44px;
+
+  color: #FFFFFF;
+}
+
+.home-ds-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.3467px;
+  line-height: 16px;
+  margin-top: 5px;
+
+  color: #FFFFFF;
+}
+
+
+/* Delevery Service box */
+/* .media {
+  margin-top: 45px;
+  background-color: #192a51;
+  border-radius: 15px 33px 0px 0px;
+  height: 120px;
+}
+
+.media img {
+  width: 47.54px;
+  height: 43.7px;
+}
+
+.media-title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 37.4589px;
+  line-height: 44px;
+
+  color: #FFFFFF;
+}
+
+.media-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13.3467px;
+  line-height: 16px;
+  margin-top: 10px;
+
+  color: #FFFFFF;
+} */
+
+/* -----EasySetup----- */
+.easysetup {
+  padding-top: 45px;
+  background-color: #d5c6e0;
+  color: #192a51;
+  font-style: normal;
+}
+
+.easysetup h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  padding-top: 15px;
+}
+
+.easysetup h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 46px;
+  padding-top: 15px;
+}
+
+.easysetup P {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.easysetup img.img {
+  float: right;
+  height: 290px;
+}
+
+/* ---------- How to buy section -------- */
+/* div inner div */
+#outer {
+  background-color: #192A51;
+  width: 100%;
+  /* height: 696px; */
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+#inner {
+  background-color: #1352F4;
+  background-image: linear-gradient(180deg, #0045FF 0%, #BD29F2 100%);
+  width: 90%;
+  height: 467px;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+
+
+  border-radius: 0 50px 0 0;
+}
+.card{
+  box-shadow: 0 10px 25px rgb(0 0 0 / 40%);
+}
+
+.htobuy h2.title {
+  padding-top: 80px;
+}
+
+.htb-title {
+  font-family: 'Almarai', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 47px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.htb-text {
+  font-family: 'Almarai', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+/* ----------card-------- */
+.card {
+  height: 215px;
+}
+
+.card-body {
+  flex: 0 0 auto;
+  padding: 13px 5px;
+}
+
+.card-title {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.card-text {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: justify;
+
+}
+
+.row1 {
+  margin-top: 30px;
+}
+
+.row2 {
+  margin-top: -35px;
+}
+
+
+
+/* =========================================================  Media Query =============================================================== */
+
+
+/* =========================================================  Media Query max-width: 1199px =============================================================== */
+@media only screen and (max-width: 1199px) {
+  /* -------Banner Section------ */
+
+  .buynow {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    color: #f44848;
+  }
+
+  /* -----EasySetup----- */
+  .easysetup h1 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 48px;
+    padding-top: 15px;
+  }
+
+  .easysetup h2 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 40px;
+    padding-top: 15px;
+  }
+
+  .easysetup P {
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 36px;
+
+  }
+
+  /* ---------- How to buy section -------- */
+
+  /*Service card*/
+  .homemedia img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .home-ds-title {
+    font-size: 34px;
+    line-height: 36px;
+  }
+
+  .home-ds-text {
+    font-size: 11px;
+    line-height: 15px;
+    color: #FFFFFF;
+  }
+
+
+
+  /* div inner div */
+
+
+  #outer {
+    background-color: #192A51;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+  }
+
+  #inner {
+    background-color: #1352F4;
+    width: 90%;
+    text-align: center;
+    padding: 2px;
+    margin: 0 30px;
+    border-radius: 0 50px 0 0;
+  }
+
+  .htb-title {
+    letter-spacing: 0em;
+    padding-left: 14px;
+
+  }
+
+  .htb-text {
+    letter-spacing: 0em;
+    padding-left: 14px;
+  }
+
+  /* card */
+
+  .card-body {
+    flex: 0 0 auto;
+    padding: 13px 5px;
+  }
+
+  .card-title {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .card-text {
+    font-size: 12px;
+    line-height: 12px;
+    text-align: justify;
+
+  }
+
+  .row1 {
+    margin-top: 30px;
+    padding: 5px;
+  }
+
+  .row2 {
+    margin-top: -35px;
+    padding: 5px;
+  }
+
+}
+
+/* =========================================================  Media Query max-width: 991px =============================================================== */
+@media only screen and (max-width: 991px) {
+
+  /* ---- Service  ---- */
+  /* .deliveryservice {
+    margin-top: 40px;
+  } */
+  /*Service card*/
+
+  .homesercard {
+    margin-top: 80px;
+  }
+
+  .homemedia img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .home-ds-title {
+    font-size: 21px;
+    line-height: 31px;
+  }
+
+  .home-ds-text {
+    font-size: 10.5px;
+    line-height: 13px;
+    color: #FFFFFF;
+  }
+
+  /* -----EasySetup----- */
+
+  .easysetup h1 {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 48px;
+    padding-top: 15px;
+  }
+
+  .easysetup h2 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 36px;
+    padding-top: 15px;
+  }
+
+  .easysetup P {
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .easysetup img.img {
+    /* float:right; */
+    height: 290px;
+  }
+
+  /* ---------- How to buy section -------- */
+  /* div inner div */
+  .htobuy h2.title {
+    padding-top: 0px;
+  }
+
+  #inner {
+
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 0 50px 0 0;
+  }
+
+  .htb-title {
+    padding: 10px;
+
+  }
+
+  .htb-text {
+    padding: 10px;
+  }
+
+  /* card */
+
+  .card-title {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .card-text {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+
+  }
+
+  .row1 {
+    margin-top: 0px;
+    /* margin:5px; */
+  }
+
+  .row2 {
+    margin-top: 0px;
+    /* margin: 5px; */
+  }
+
+}
+
+/* =========================================================  Media Query max-width: 767px =============================================================== */
+@media only screen and (max-width: 767px) {
+  /* -------Banner Section------ */
+
+  .welcomep {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .buynow {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .firstparagraph {
+    font-size: 14px;
+    line-height: 16px;
+
+  }
+
+  /* ===========================================service box========== */
+  /* Delevery Service box */
+
+  .homesercard {
+    margin-top: 55px;
+  }
+
+  .homemedia {
+    margin-bottom: 25px;
+  }
+
+  /* .banner .row {
+    padding-top: 10px;
+  }
+
+  .media {
+    margin-top: 35px;
+    background-color: #192a51;
+    border-radius: 15px 33px 0px 0px;
+  }
+
+  .media img {
+    font-size: 38px;
+    color: #7fff00;
+  }
+
+  .media-title {
+    font-size: 28px;
+    padding-left: 25px;
+  }
+
+  .media-text {
+    font-size: 14px;
+  } */
+
+  /* -----EasySetup----- */
+  .easysetup h1 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 40px;
+    padding-top: 35px;
+
+  }
+
+  .easysetup h2 {
+    font-size: 26px;
+    font-weight: 8000;
+    line-height: 32px;
+    padding-top: 10px;
+  }
+
+  .easysetup P {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .easysetup img.img {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  /* ---------- How to buy section -------- */
+  /* div inner div */
+  .htobuy h2.title {
+    padding-top: 0px;
+  }
+
+  /* card */
+
+  .card-title {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .card-text {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+
+  }
+
+  .row1 {
+    margin-top: 0px;
+  }
+
+  .row2 {
+    margin-top: 0px;
+  }
+
+}
+
+/* =========================================================  Media Query max-width: 575px =============================================================== */
+
+@media only screen and (max-width: 575px) {
+
+  /* For mobile phones: */
+  .navbar-brand {
+    height: 25%;
+    width: 25%;
+  }
+
+  /*========= MODEL========== */
+  .modal {
+    width: 50%;
+    left: 25%;
+    right: 25%;
+
+  }
+
+  .modal-body {
+    padding: 0rem;
+  }
+
+  /*========= end Model ==========*/
+  /* -------Banner Section------ */
+  /* .banner .row {
+    padding-top: 10px;
+  } */
+
+  .banner {
+
+    height: 100%;
+
+  }
+
+
+  .welcomep {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .buynow {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .firstparagraph {
+    font-size: 14px;
+    line-height: 16px;
+
+  }
+
+  .homemedia {
+    margin: 25px;
+  }
+
+  /* Delevery Service box */
+  /* .mediaboxs {
+    padding-bottom: 10px;
+  } */
+  /* 
+  .media {
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .media img {
+    font-size: 26px;
+  }
+
+  .media-title {
+    font-size: 18px;
+    padding-left: 15px;
+  }
+
+  .media-text {
+    font-size: 14px;
+  } */
+
+  /* -----EasySetup----- */
+  .easysetup {
+    padding-top: 0px;
+
+  }
+
+  .easysetup h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+
+  }
+
+  .easysetup h2 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32px;
+    padding-top: 10px;
+  }
+
+  .easysetup P {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .easysetup img.img {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  /* ---------- How to buy section -------- */
+  /* div inner div */
+  #outer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  #inner {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    margin: 0 30px;
+    border-radius: 0 50px 0 0;
+  }
+
+  .htobuy h2.title {
+    padding-top: 0px;
+  }
+
+  .htb-title {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 28px;
+  }
+
+  .htb-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* ----------card-------- */
+  .card {
+    height: 100%;
+    margin: 8px;
+  }
+
+  .card-body {
+    flex: 0 0 auto;
+    padding: 13px 5px;
+  }
+
+  .card img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .card-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .card-text {
+    font-size: 12px;
+    line-height: 12px;
+    text-align: justify;
+    overflow: hidden;
+
+  }
+
+  .row1 {
+    margin-top: 0px;
+  }
+
+  .row2 {
+    margin-top: 0px;
+  }
+}

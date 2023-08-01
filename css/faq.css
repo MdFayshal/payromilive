@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* -------Banner Section------ */
+.buy {
+    background-color: #f5e6e8;
+    font-family: 'Roboto', sans-serif;
+    ;
+    font-style: normal;
+}
+
+.buy .row {
+    padding-top: 30px;
+}
+
+.BuyWelcome {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.pay {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 70px;
+    color: #f44848;
+}
+
+.buypra {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: 0.15em;
+}
+
+.buymedia {
+    background-color: #192a51;
+    border-radius: 15px 35px 15px 15px;
+    height: 120px;
+}
+
+.buymedia img {
+    width: 59px;
+    height: 56px;
+}
+
+.delivery-service-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37.4589px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+.delivery-service-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.3467px;
+    line-height: 16px;
+    margin-top: 10px;
+
+    color: #FFFFFF;
+}
+
+/* == FAQ == */
+/* Custom style */
+button.accordion-button.collapsed {
+    background-color: red;
+    background-image: linear-gradient(to right, #0D43FE 0%, #B92FF3 100%);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: red;
+    background-image: linear-gradient(to right, #0D43FE 0%, #B92FF3 100%);
+    color: #fff;
+
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url('../Images/right.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    float: left;
+    background-size: 1.25rem;
+    transform: rotate(0deg);
+
+
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../Images/right.svg');
+    transform: rotate(-90deg);
+}
+
+/* =========================================================  Media Query =============================================================== */
+
+
+/* =========================================================  Media Query max-width: 1199px =============================================================== */
+@media only screen and (max-width: 1199px) {
+
+    /* -------Banner Section------ */
+    .titlebynow {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 26.9741px;
+        line-height: 32px;
+        letter-spacing: 0.05em;
+        color: #000000;
+    }
+
+    /*Service card*/
+    .buymedia img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .delivery-service-title {
+        font-size: 34px;
+        line-height: 36px;
+    }
+
+    .delivery-service-text {
+        font-size: 11px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+
+    /* Another page Buy */
+    .buyservcard {
+        margin-top: 10px;
+    }
+
+    /* --   pay method -- */
+
+    /* buy card */
+    .buy-headline {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 23px;
+        line-height: 28px;
+        color: #000000;
+    }
+
+
+}
+
+/* =========================================================  Media Query max-width: 991px =============================================================== */
+@media only screen and (max-width: 991px) {
+
+    /*Service card*/
+    .buymedia img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .delivery-service-title {
+        font-size: 21px;
+        line-height: 31px;
+    }
+
+    .delivery-service-text {
+        font-size: 10.5px;
+        line-height: 13px;
+        color: #FFFFFF;
+    }
+}
+
+/* =========================================================  Media Query max-width: 767px =============================================================== */
+@media only screen and (max-width: 767px) {
+
+    /* servcice card */
+    .buymedia {
+        background-color: #192a51;
+        border-radius: 15px 35px 15px 15px;
+        margin: 5px;
+    }
+
+    /* buy card */
+    .buy-headline {
+        font-weight: 600;
+        font-size: 25px;
+    }
+
+    #buy-car-design {
+        width: auto;
+    }
+
+    .buy-car-title {
+        font-weight: 600;
+    }
+
+}
+
+/* =========================================================  Media Query max-width: 575px =============================================================== */
+
+@media only screen and (max-width: 575px) {
+
+    /*===========Number=============*/
+    .number {
+        font-family: Roboto;
+        font-size: 36px;
+        line-height: 35px;
+        margin-left: 0px;
+    }
+
+    .bbox-title {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+
+
+    }
+
+    /*---------------------------------------------------------------------------------------  */
+    /* Another page Buy */
+
+    .buymedia {
+        background-color: #192a51;
+        border-radius: 15px 35px 15px 15px;
+        height: 100px;
+        margin: 5px;
+    }
+
+    /* buy card */
+    .buy-headline {
+
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    #buy-car-design {
+        width: 80%;
+        left: 11%;
+        height: 492px;
+    }
+
+    .buy-car-title {
+
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+
+    .barcard {
+
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0em;
+
+    }
+
+}

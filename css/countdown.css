@@ -1,0 +1,47 @@
+
+.countdown {
+    /* background: url("../images/abs_bg_3.jpg"),rgba(233, 17, 17, 0.514); */
+    background-blend-mode: overlay;
+    background: url(../images/abs_bg_3.jpg) center center / cover no-repeat, linear-gradient(to right, rgba(0, 69, 255,0.6) 0%, rgba(255, 255, 255, 0.384) 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    transition: background 0.3s ease 0s, border-radius 0.3s ease 0s, opacity 0.3s ease 0s;
+    
+   
+    
+}
+.c-item{
+    margin: 50px 0px;
+    
+}
+
+.counter-section h2.appear  {
+    font-size: 48px;
+    line-height: 1;
+    display: block;
+    font-family: "Barlow Condensed";
+    font-weight: 600;
+
+}
+.counter-title{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: "Barlow Condensed";
+    font-weight: 600;
+}
+@media only screen and (max-width: 575px) {
+    .counter-section h2.appear  {
+        font-size: 38px;
+       
+    
+    }
+    .counter-section{
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+
